@@ -1,0 +1,129 @@
+html,body,div,ul,ul li,h1,h2,h3,h4,h5,h6,video,img,a,p,footer {
+    	margin: 0;
+    	padding: 0;
+    	border: 0;
+    	font-family: "microsoft yahei";
+    	/*overflow: hidden;*/
+    		}
+ul li {
+	list-style: none;
+}
+body {
+	font-size: 12px;
+	/*overflow: hidden;*/
+	/*width: 100%;*/
+}
+header,footer {
+	width: 100%;
+	overflow: hidden;
+}
+
+
+#section_header ul li a {
+			line-height: 44px;
+			font-size: 18px;
+		}
+
+
+
+.header {
+		z-index: 12;
+		top: 0;
+		width: 100%;
+		height: 44px;
+		background: #D43F3A;
+		position: fixed;
+		color: white;
+		text-align: center;
+		font-family: "microsoft yahei";
+		font-size: 30px;
+		line-height: 44px;
+	}
+
+.section1 .slide .con {
+	top: 200px;
+	position: absolute;
+	width: 400px;
+	
+}
+
+
+.section1 .slide1 .con {
+	left: 60px;
+}
+
+
+.section1 .slide1 .con a {
+	width: 100px;
+	line-height: 40px;
+	text-align: center;
+	background: #FFF;
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+.section1 .slide1 .one a:hover {
+	background: #db6d6d;
+	color: #FFFFFF;
+}
+
+
+.bannertext {
+	/*border: 1px solid #000000;*/
+	position: fixed;
+	top: 74px;
+	width: 100%;
+	height: 500px;
+	background-attachment:fixed;
+	z-index: -11;
+}
+footer .flist {
+	padding-top: 20px;
+	width: 100%;
+	background: #FFFFFF;
+	
+}
+
+
+
+footer {
+	clear: both;
+	/*position: fixed;*/
+	
+	
+	margin: 0 auto;
+	margin-top: 600px;
+	background: #252a2c;
+	bottom: 0;
+	z-index: 99;
+	
+}
+
+.footer {
+	width: 85%;
+	color: #FFFFFF;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.footer .row {
+	padding-top: 40px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.footer .copy {
+	width: 100%;
+	height: 35px;
+	text-align: center;
+	bottom: 0;
+	font-size: 12px;
+	color: white;
+}
+
+
+@media only screen and (max-width: 750px) {
+	.row2 , .row4 {
+		display: none;
+	}
+	
+}
