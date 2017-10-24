@@ -2,7 +2,7 @@ $(function ($) {
 
             var options = {
                 $SlideDuration: 1000,                    //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
-                $DragOrientation: 3,                    //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $Cols is greater than 1, or parking position is not 0)
+                $DragOrientation: 1,                    //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $Cols is greater than 1, or parking position is not 0)
 				//拖动方向									//[可选]方向拖动滑块，0没有阻力，1水平，2纵，3，默认值为1（注：应为dragorientation美元美元美元playorientation时一般大于1，或停车位置不0相同）
                 $AutoPlay: 1,                           //[Optional] Auto play or not, to enable slideshow, this option must be set to greater than 0. Default value is 0. 0: no auto play, 1: continuously, 2: stop at last slide, 4: stop on click, 8: stop on user navigation (by arrow/bullet/thumbnail/drag/arrow key navigation)
                 $Idle: 2000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
