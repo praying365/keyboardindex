@@ -1,8 +1,7 @@
-html,body,div,ul,ul li,h1,h2,h3,h4,h5,h6,video,img,a,p,footer {
+html,body,div,ul,ul li,h1,h2,h3,h4,h5,h6,video,img,a,p,header,footer {
     	margin: 0;
     	padding: 0;
     	border: 0;
-    	font-family: "microsoft yahei";
     	/*overflow: hidden;*/
     		}
 ul li {
@@ -10,12 +9,13 @@ ul li {
 }
 body {
 	font-size: 12px;
+	font-family: "microsoft yahei";
 	/*overflow: hidden;*/
-	/*width: 100%;*/
+	width: 100%;
 }
 header,footer {
 	width: 100%;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 
@@ -26,19 +26,32 @@ header,footer {
 
 
 
-.header {
-		z-index: 12;
-		top: 0;
+header {
+		/*z-index: 12;*/
+		/*top: 0;
 		width: 100%;
-		height: 44px;
+		height: 55px;
 		background: #D43F3A;
 		position: fixed;
 		color: white;
-		text-align: center;
-		font-family: "microsoft yahei";
-		font-size: 30px;
-		line-height: 44px;
+		text-align: center;*/
+		
+		
+		/*line-height: 44px;*/
+		/*font-size: 30px;*/
+		
+		/*height: 55px;
+  background: #f4421a;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  left: 0;
+  top: 0;*/
+		
 	}
+
+
+
 
 .section1 .slide .con {
 	top: 200px;
@@ -67,16 +80,69 @@ header,footer {
 	color: #FFFFFF;
 }
 
+/*.box {
+	position: fixed;
+	top:0;
+	overflow: hidden;
+	width: 100%;
+	height: 574px;
+}*/
 
 .bannertext {
 	/*border: 1px solid #000000;*/
-	position: fixed;
-	top: 74px;
 	width: 100%;
-	height: 500px;
-	background-attachment:fixed;
+	height: 550px;
+	position: fixed;
+	top: 55px;
 	z-index: -11;
+	overflow: hidden;
+	/*background-attachment:fixed;*/
+	
 }
+
+
+
+.jssorb051 .i {position:absolute;cursor:pointer;}
+.jssorb051 .i .b {fill:#fff;fill-opacity:0.5;stroke:#000;stroke-width:400;stroke-miterlimit:10;stroke-opacity:0.5;}
+.jssorb051 .i:hover .b {fill-opacity:.7;}
+.jssorb051 .iav .b {fill-opacity: 1;}
+.jssorb051 .i.idn {opacity:.3;}
+
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+                
+                                
+                
+
+
+
+
+
+
+
+
+
+
+/*.one {
+	
+	
+	width: 100px;
+	line-height: 100px;
+	text-align: center;
+	background: #D9EDF7;
+}
+
+.two {
+	
+	width: 100px;
+	line-height: 100px;
+	text-align: center;
+	background: #F7E1B5;
+}*/
+
 
 section {
 	margin-top: 600px;
@@ -164,6 +230,14 @@ footer {
 	font-size: 12px;
 	color: white;
 }
+
+.to-top { 
+	display: none; 
+	padding: 0 20px; 
+	color: #fff; 
+	background-color: #f50;
+	z-index: 333;
+	}
 
 
 @media screen and (max-width:800px) {
