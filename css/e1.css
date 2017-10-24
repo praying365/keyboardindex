@@ -12,6 +12,17 @@ body {
 	font-family: "microsoft yahei";
 	/*overflow: hidden;*/
 	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.box {
+	background: #000000;
+}
+.box , header ,.bannertext, .banner ,section , footer {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
 }
 header,footer {
 	width: 100%;
