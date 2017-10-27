@@ -22,7 +22,7 @@ header , .bannertext, .banner ,section , footer {
 	width: 100%;
 	overflow: hidden;
 }
-header,footer {
+header , footer {
 	width: 100%;
 	/*overflow: hidden;*/
 }
@@ -74,9 +74,20 @@ header {
 	left: 10%;
 }
 
+.img-media1-1 {
+	display: none;
+}
 @media screen and (max-width:800px) {
 	.section1 .slide1 .con {
 		left: 38%;
+	}
+	
+	.img-media1 {
+		display: none;
+	}
+	
+	.img-media1-1 {
+		display: block;
 	}
 	
 }
@@ -110,34 +121,15 @@ header {
 	position: fixed;
 	top: 55px;
 	z-index: -11;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	/*background-attachment:fixed;*/
-	
 }
 
-
-
-.jssorb051 .i {position:absolute;cursor:pointer;}
-.jssorb051 .i .b {fill:#fff;fill-opacity:0.5;stroke:#000;stroke-width:400;stroke-miterlimit:10;stroke-opacity:0.5;}
-.jssorb051 .i:hover .b {fill-opacity:.7;}
-.jssorb051 .iav .b {fill-opacity: 1;}
-.jssorb051 .i.idn {opacity:.3;}
-
-.jssora051 {display:block;position:absolute;cursor:pointer;}
-.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
-.jssora051:hover {opacity:.8;}
-.jssora051.jssora051dn {opacity:.5;}
-.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
-                
+.banner {
+	z-index: -12;
+}   
                                 
                 
-
-
-
-
-
-
-
 
 
 
@@ -164,6 +156,7 @@ section {
 	padding-top: 20px;
 	background: #FFFFFF;
 	overflow: hidden;
+	z-index: 2000;
 }
 section .img01 img {
 	width: 100%;
