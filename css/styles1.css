@@ -12,7 +12,7 @@
 
 body, div,
 h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
+p, blockquote, pre, dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend, th, td,
 article, aside, figure, footer, hgroup, header,menu, nav, 
 summary, hgroup {
@@ -24,7 +24,7 @@ summary, hgroup {
 a:active,
 a:hover {
   outline: 0;
-  text-decoration: none;
+  /*text-decoration: none;*/
   color: #FFF;
 }
 
