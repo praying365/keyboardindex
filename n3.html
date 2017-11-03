@@ -5,13 +5,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<base href="" / target="_blank">
 		
+		<title>n3page</title>
+		
 		<!--浏览器地址栏显示的图片-->
 		<link rel="icon" type="img/png" href="img/favicon.ico"/>
 		
 		<!--css-->
-		<link rel="stylesheet" type="text/css" href="css/n1.css"/>
+		<link rel="stylesheet" type="text/css" href="css/n3.css"/>
 				
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		<!--商品banner-->
+		<link rel="stylesheet" type="text/css" href="css/responsiveslides.css"/>
+		
+		<!--移动端商品banner-->
+		<link rel="stylesheet" type="text/css" href="css/n3swiper.css"/>
 	
 		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
 		
@@ -20,6 +28,16 @@
 		
 		<script src="js/scrollRevealv0.1.3.js" type="text/javascript" charset="utf-8"></script>
 		
+		<!--banner-->
+		<script src="js/responsiveslides.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#slider3").responsiveSlides({
+			        manualControls: '#slider3-pager',
+//			        maxwidth: 540
+			      });
+			})
+		</script>
 		
 		
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -70,17 +88,59 @@
 	</header>
 	
 	<main>
-		<div class="banner">
+		<!--<div class="banner">
 			
-			<h2 data-scroll-reveal class="text-center">新键盘 新选择 CURVE “巢” </h2>
+			<h2 data-scroll-reveal class="text-center">新键盘 新选择 CURVE “巢” </h2>-->
 			<!--<img src="img/21.jpg" class="img-responsive center-block"/>-->
-		</div>
+		<!--</div>
 		
 		<div class="text">
 			<h2 data-scroll-reveal>舒适与精确的新标准</h2>
 			<p data-scroll-reveal>罗技专为轨迹球发烧友和寻找鼠标及触摸板替代产品的消费者打造的出色轨迹球。与常规鼠标相比，造成的肌肉劳损程度可减低 20%。MX ERGO 具有独特的可调节转轴，可为您带来个性化舒适体验，同时采用了最新的追踪、滚动和电源管理技术。罗技 FLOW™ 可实现轻松的跨计算机控制。</p>
+		</div>-->
+		
+		<div class="slider-box">
+		    <!-- Slideshow 3 -->
+		    <ul class="rslides" id="slider3">
+		      	<li><img src="img/case1.jpg" alt=""></li>		      	
+		      	<li><img src="img/case2.jpg" alt=""></li>	
+		      	<li><img src="img/case3.jpg" alt=""></li>
+		    </ul>
+		
+		    <!-- Slideshow 3 Pager -->
+		    <ul id="slider3-pager" class="container">
+		      	<li><a href="#"><img src="img/th1.png" alt=""></a></li>
+		      	<li><a href="#"><img src="img/th2.png" alt=""></a></li>
+		      	<li><a href="#"><img src="img/th3.png" alt=""></a></li>
+		    </ul>
+		    <div class="box-text">
+		    	<h1>MX ERGO </h1>
+		    	<p>寿命持久的快速充电电池</p>
+		    	<p>无线轨迹球 </p>
+		    	<p>RMB 699</p>
+		    </div>   
 		</div>
 		
+		<div class="slider-minbox">
+			<div class="swiper-container">
+				<div class="text-center">
+					<h3>MX ERGO</h3>
+					<p>无线轨迹球 </p>
+				</div>
+			    <div class="swiper-wrapper">
+				    <div class="swiper-slide"><img src="img/th1.png" class="img-responsive" /></div>
+				    <div class="swiper-slide"><img src="img/th2.png" class="img-responsive" /></div>
+				    <div class="swiper-slide"><img src="img/th3.png" class="img-responsive" /></div>
+				    
+			    </div>
+			    <!-- Add Pagination -->
+			    <div class="swiper-pagination"></div>
+			    
+		  	</div>
+		  	<div class="text-center">
+		    	<h4>RMB 699</h4>
+		    </div>
+		</div>
 		
 		
 		<div class="container">
@@ -271,6 +331,7 @@
 
 	</main>
 	
+	<!--footer-->
 	<footer>
        <div class="footer">
 	       		<!--<p>1.Adobe CC 2017 及更高版本 - Windows 和 Mac Office 2010、2013 和 2016 - 仅限 Windows</p>
@@ -282,25 +343,25 @@
 	       		<div class="row">
 	       			<!--row1-->
 	       			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-	       				<p>关于"巢"</p>
+	       				<p><a href="z1-info.html" target="_blank">关于"巢"</a></p>
 	       				<br />
 	       				
-	       				<p>官方商城</p>
+	       				<p><a href="index.html" target="_blank">官方网站</a></p>
 	       				<br />
 	       				
-	       				<p>隐私与安全</p>
+	       				<p><a href="z4-info.html" target="_blank">隐私与安全</a></p>
 	       				<br />
 	       			</div>
 	       			
 	       			<!--row2-->
 	       			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-	       				<p>联系我们</p>
+	       				<p><a href="z2-info.html" target="_blank">联系我们</a></p>
 	       				<br />
 	       				
-	       				<p>网站地图</p>
+	       				<p><a href="z5-info.html" target="_blank">销售与支持</a></p>
 	       				<br />
 	       				
-	       				<p>新闻中心</p>
+	       				<p><a href="z6-info.html" target="_blank">新闻中心</a></p>
 	       				<br />
 	       			</div>
 	       			<!--row3-->
@@ -319,10 +380,10 @@
 	       				<p>招聘</p>
 	       				<br />
 	       				
-	       				<p>使用条例</p>
+	       				<p><a href="z3-info.html" target="_blank">使用条例</a></p>
 	       				<br />
 	       				
-	       				<p>沪ICP备12002604</p>
+	       				<p><a href="http://www.miitbeian.gov.cn" target="_blank">京ICP证 013548</a></p>
 	       				<br />
 	       			</div>
 	       			
@@ -336,7 +397,7 @@
        </div>
    </footer>
    
-      <script>
+    <script>
     
     	
     	if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
@@ -344,7 +405,29 @@
 			window.scrollReveal = new scrollReveal({ reset: true, });
 		})();
 	};		
-	</script>	
+	</script>
+	
+	<!--移动端商品banner-->
+	<script src="js/n3swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<!-- Swiper -->
+	
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+	  autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      slidesPerView: 1,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      
+    });
+  </script>
+  
+  
    
    
 	</body>
